@@ -23,14 +23,14 @@ var showProject = function (projectData) {
   var $display = document.querySelector('.display')
 
   var $image = $display.querySelector('.img-responsive')
-  var $description = $display.querySelector('.description')
-  var $details = $display.querySelector('.details')
+  var $description = document.querySelector('.description')
+  var $details = document.querySelector('.details')
   var $button = $display.querySelector('a')
 
   $image.src = projectData.imageSrc
   $description.innerText = projectData.description
   $details.innerText = projectData.details
-  $button.href = projectData.githubLink
+  // $button.href = projectData.githubLink
 }
 
 // initial project loaded
