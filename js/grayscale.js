@@ -3,12 +3,6 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-// jQuery Portfolio selector
-$('#thumbs img').on('click', function () {
-  var src = $(this).attr('src');
-  $('#viewer img').attr('src', src);
-});
-// end portfolio selector
 
 // jQuery to collapse the navbar on scroll
 function collapseNavbar() {
