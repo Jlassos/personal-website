@@ -28,6 +28,7 @@ var portfolio = {
   }
 }
 
+// declare variables
 var showProject = function (projectData) {
   var $display = document.querySelector('.display')
 
@@ -36,7 +37,7 @@ var showProject = function (projectData) {
   var $description = document.querySelector('.description')
   var $details = document.querySelector('.details')
   var $button = document.querySelector('.githubLink')
-
+// set variables
   $image.src = projectData.imageSrc
   $header.innerText = projectData.header
   $description.innerText = projectData.description
