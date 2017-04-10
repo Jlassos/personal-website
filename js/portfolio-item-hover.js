@@ -4,21 +4,25 @@ var portfolio = {
     header: 'Box Buddy',
     subheader: 'Virtual Pet',
     imageSrc: '/img/box-buddy.png',
-    description: 'This is so rad, just look at me killin it!',
+    description: 'A little virtual pet simulation he lives in a box and he is your buddy!',
     details: [
-      'Go read the code, lazy bum...',
-      'I used high technology that usually only adults can reach.'
+      'Javascript ',
+      'Phaser JS framework ',
+      'Photoshop ',
+      'Audcacity '
     ]
   },
   B: {
     header: 'Red Rover',
     subheader: 'Application',
     imageSrc: '/img/rr-mark-red.png',
-    description: 'Also did this, I know, so rad.',
+    description: 'I coded the front end for this companies app',
     details: [
-      'gummy bears',
-      'potato chips',
-      'unhealthy arguments'
+      'HTML ',
+      'CSS ',
+      'Javascript ',
+      'SASS ',
+      'Node ',
     ]
   }
 }
