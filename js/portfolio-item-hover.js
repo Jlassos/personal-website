@@ -13,10 +13,11 @@ var portfolio = {
     ]
   },
   B: {
+    githubLink: 'https://github.com/Jlassos/red-rover',
     header: 'Red Rover',
     subheader: 'Application',
     imageSrc: '/img/rr-mark-red.png',
-    description: 'I coded the front end for this companies app',
+    description: 'I coded CSS framework for this startups app',
     details: [
       ' HTML',
       ' CSS',
@@ -34,13 +35,13 @@ var showProject = function (projectData) {
   var $header = document.querySelector('.item-header')
   var $description = document.querySelector('.description')
   var $details = document.querySelector('.details')
-  // var $button = $display.querySelector('a')
+  var $button = document.querySelector('.githubLink')
 
   $image.src = projectData.imageSrc
   $header.innerText = projectData.header
   $description.innerText = projectData.description
   $details.innerText = projectData.details
-  // $button.href = projectData.githubLink
+  $button.href = projectData.githubLink
 }
 
 // initial project loaded
