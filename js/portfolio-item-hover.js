@@ -6,10 +6,10 @@ var portfolio = {
     imageSrc: '/img/box-buddy.png',
     description: 'A little virtual pet simulation he lives in a box and he is your buddy!',
     details: [
-      'Javascript ',
-      'Phaser JS framework ',
-      'Photoshop ',
-      'Audcacity '
+      ' Javascript',
+      ' Phaser JS framework',
+      ' Photoshop',
+      ' Audcacity'
     ]
   },
   B: {
@@ -18,11 +18,11 @@ var portfolio = {
     imageSrc: '/img/rr-mark-red.png',
     description: 'I coded the front end for this companies app',
     details: [
-      'HTML ',
-      'CSS ',
-      'Javascript ',
-      'SASS ',
-      'Node ',
+      ' HTML',
+      ' CSS',
+      ' Javascript',
+      ' SASS',
+      ' Node',
     ]
   }
 }
